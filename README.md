@@ -1,14 +1,17 @@
 # Coral Image Classification
 A CNN-based image classification model to accurately identify and monitor the health of coral reefs.
 
-[alt text](image.png)
+![coral reef](image.png)
 
 ### Problem
 Coral reefs are vital to marine life: 
-* They protect coastlines from weather damage, shelter at least 25% marine species, and provide human resources for a plethora of industries.
+* Protects coastlines from weather damage
+* Shelters at least 25% marine species
+* Provide human resources for a plethora of industries.
 
-Half of the world's coral reefs have died:
-* They are one of the most vulnerable ecosystems on the planet, subsceptible to coral bleaching due to rising ocean temperatures and other environmental factors.
+Coral reefs are one of the most vulnerable ecosystems on Earth:
+* Half of the world's coral reefs have died
+* Coral bleaching occurs due to rising ocean temperatures and other environmental factors
 
 ### Purpose
 * To assist marine researchers, biologists, and data scientists in identifying healthy and bleached corals based on distinct visual patterns. 
@@ -33,5 +36,5 @@ Half of the world's coral reefs have died:
 * Integrate with other marine technologies-->
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
