@@ -56,7 +56,7 @@ CNN-based image classification model
     ```bash
     pip install numpy pandas matplotlib opencv-python seaborn tensorflow 
     ```
-4. Switch to Jupyter Kernel in VS Code (if needed)
+4. Switch to Jupyter Kernel in VS Code (if needed)  
     a. Pip install `ipykernel` for Jupyter Notebook extension in VS Code
     b. Open .ipynb notebook file inside VS Code
     c. Select Kernel at the top-right corder of the editer
