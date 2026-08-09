@@ -56,11 +56,11 @@ CNN-based image classification model
     ```bash
     pip install numpy pandas matplotlib opencv-python seaborn tensorflow python-dotenv
     ```
-4. Switch to Jupyter Kernel in VS Code (if needed)
-    a. Pip install `ipykernel` for Jupyter Notebook extension in VS Code
-    b. Open .ipynb notebook file inside VS Code
-    c. Select Kernel at the top-right corder of the editer
-    d. Select Python Environments \rightarrow Choose environment labelled `cnn-env`
+4. Switch to Jupyter Kernel in VS Code (if needed)  
+    a. Pip install `ipykernel` for Jupyter Notebook extension in VS Code  
+    b. Open .ipynb notebook file inside VS Code  
+    c. Select Kernel at the top-right corder of the editer  
+    d. Select Python Environments \rightarrow Choose environment labelled `cnn-env`  
     e. Or, select create python environment (\rightarrow Enter interpreter path \rightarrow Manually browse for the path)
 
 ### Additional Notes
