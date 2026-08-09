@@ -13,7 +13,7 @@ Coral reefs are one of the most vulnerable ecosystems on Earth:
 * Half of the world's coral reefs have died
 * Coral bleaching occurs due to rising ocean temperatures and other environmental factors
 
-### Challenges
+## Challenges
 * Manual identification of bleached and healthy corals is time-consuming 
 * Requires specialized knowledge and continuous monitoring 
 
@@ -23,18 +23,18 @@ CNN-based image classification model
 * Uses large dataset of labeled coral images for learning and training
 * Produces a more efficient, consistent, and scalable approach
 
-### Application
+### Application:
 * Large-scale, real-time coral reef monitoring 
 * Underwater camera systems or aerial imagery
 
 
-### Purpose
+### Purpose:
 * To assist marine researchers, biologists, and data scientists in identifying healthy and bleached corals based on distinct visual patterns. 
 * To better understand the health of coral reefs, monitoring changes within ecosystems and contributing to the conservation & restoration strategies.
 * To raise public awareness about the importance of coral reef ecosystems and the hardships they face.
-
+<br>
 <!-- Addition Visuals: TTYGIF or ASCIINEMA -->
-## Installation
+# Installation
 1. Clone the respository:
    ```bash
    git clone https://github.com/brittnyn/coral_image_classification
@@ -56,19 +56,22 @@ CNN-based image classification model
     ```bash
     pip install numpy pandas matplotlib opencv-python seaborn tensorflow python-dotenv
     ```
-4. Switch to Jupyter Kernel in VS Code (if needed)  
+4. Install kagglehub for access to kaggle dataset
+    ```bash
+    pip install kagglehub
+    ```
+5. Switch to Jupyter Kernel in VS Code (if needed)  
     a. Pip install `ipykernel` for Jupyter Notebook extension in VS Code  
-    b. Open .ipynb notebook file inside VS Code  
-    c. Select Kernel at the top-right corder of the editer  
-    d. Select Python Environments \rightarrow Choose environment labelled `cnn-env`  
-    e. Or, select create python environment (\rightarrow Enter interpreter path \rightarrow Manually browse for the path)
+    b. Open `.ipynb` notebook file inside VS Code  
+    c. Select Kernel at the top-right corner of the editer  
+    d. Select Python Environments $\rightarrow$ Choose environment labelled `cnn-env`  
+    e. Or, select *Create python environment* $\rightarrow$ *Enter interpreter path* $\rightarrow$ *Manually browse for the path*
 
 ### Additional Notes
 <!-- Programming language version, operating system, or dependencies that have to be installed manually -->
-* At most Python v.3.13 for compatibility with TensorFlow
-* Using a virtual environment isolates program from global package
+* At most Python `3.13` for compatibility with TensorFlow
+* Using a virtual environment isolates program from global packages
 * Run cells from top to bottom using a GPU accelerator
-
 
 ## Roadmap
 <!-- Possible ideas for the future: -->
