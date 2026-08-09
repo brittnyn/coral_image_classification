@@ -32,9 +32,10 @@ CNN-based image classification model
 * To assist marine researchers, biologists, and data scientists in identifying healthy and bleached corals based on distinct visual patterns. 
 * To better understand the health of coral reefs, monitoring changes within ecosystems and contributing to the conservation & restoration strategies.
 * To raise public awareness about the importance of coral reef ecosystems and the hardships they face.
-<br>
+
 <!-- Addition Visuals: TTYGIF or ASCIINEMA -->
 # Installation
+This is a VGG-19 classifier using TensorFlow
 1. Clone the respository:
    ```bash
    git clone https://github.com/brittnyn/coral_image_classification
