@@ -35,6 +35,12 @@ CNN-based image classification model
 
 <!-- Addition Visuals: TTYGIF or ASCIINEMA -->
 # Installation
+### Additional Notes
+<!-- Programming language version, operating system, or dependencies that have to be installed manually -->
+* At most Python `3.13` for compatibility with TensorFlow
+* Using a virtual environment isolates program from global packages
+* Run cells from top to bottom using a GPU accelerator
+  
 This is a VGG-19 classifier using TensorFlow
 1. Clone the respository:
    ```bash
@@ -42,20 +48,20 @@ This is a VGG-19 classifier using TensorFlow
    cd your-repo
    ```
 
-2. Create a virtual environment (highly recommended):
+2. Create and activate a virtual environment (highly recommended):
     ```bash
-    python -m venv cnn-env
-    source cnn-env/bin/activate # Mac/Linux
+    python -m venv .venv
+    source .venv/bin/activate # Mac/Linux
     ```
 
     ```bash
-    python -m venv cnn-env
-    cnn-env\Scripts\activate # Windows 
+    python -m venv .venv
+    .venv\Scripts\activate # Windows 
     ```
 
 3. Install the required packages
     ```bash
-    pip install numpy pandas matplotlib opencv-python seaborn tensorflow python-dotenv
+    pip install numpy pandas matplotlib opencv-python seaborn tensorflow tensorboard python-dotenv scikit-learn
     ```
 4. Install kagglehub for access to kaggle dataset
     ```bash
@@ -65,14 +71,9 @@ This is a VGG-19 classifier using TensorFlow
     a. Pip install `ipykernel` for Jupyter Notebook extension in VS Code  
     b. Open `.ipynb` notebook file inside VS Code  
     c. Select Kernel at the top-right corner of the editer  
-    d. Select Python Environments $\rightarrow$ Choose environment labelled `cnn-env`  
+    d. Select Python Environments $\rightarrow$ Choose environment labelled `.venv`  
     e. Or, select *Create python environment* $\rightarrow$ *Enter interpreter path* $\rightarrow$ *Manually browse for the path*
 
-### Additional Notes
-<!-- Programming language version, operating system, or dependencies that have to be installed manually -->
-* At most Python `3.13` for compatibility with TensorFlow
-* Using a virtual environment isolates program from global packages
-* Run cells from top to bottom using a GPU accelerator
 
 ## Roadmap
 <!-- Possible ideas for the future: -->

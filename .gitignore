@@ -1,5 +1,6 @@
 cnn-env/
 .env
+.venv
 helper_functions.py
 temp_file.jpeg
 __pycache__/
